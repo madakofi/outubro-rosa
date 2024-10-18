@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.BoxLogo {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.BoxLogo h1 {
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+
+nav {
+  width: 40vw;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5vw;
+}
+
+.sessaoSobre {
+  height: 60vh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sessaoSobre p {
+  border: solid 2px;
+  width: 40vw;
+  font-size: 1.5vw;
+}
+.sessaoSobre img {
+  width: 25vw;
+}/*# sourceMappingURL=style.css.map */
