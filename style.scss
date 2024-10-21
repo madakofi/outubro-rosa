@@ -56,3 +56,73 @@ nav {
     width: 25vw;
   }
 }
+.sectionConscientizacao {
+  height: 60vh;
+  background-color: $cor-primaria;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  p {
+    width: 38vw;
+    font-size: 1.5vw;
+    color: $cor-do-texto;
+  }
+  img {
+    width: 40vw;
+  }
+}
+
+.sectionDicas {
+  height: 60vh;
+  background-color: $cor-secundaria;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+footer {
+  height: 12vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $cor-primaria;
+  padding: 0 50px;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    margin-right: 27px;
+  }
+
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  .navImg {
+    width: 5vw;
+  }
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p {
+  color: $cor-do-texto;
+  text-align: justify;
+}
+.footerImg {
+  max-width: 100px;
+}
