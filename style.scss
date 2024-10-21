@@ -17,64 +17,67 @@ header {
   justify-content: space-around;
 }
 
-.BoxLogo {
-  // border: solid 2px red;
+.contianerLogo {
   width: 25vw;
   display: flex;
   align-items: center;
   color: white;
-  h1 {
-    font-size: 1.7vw;
-    font-weight: 400;
-  }
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.7vw;
+  font-weight: 400;
 }
 
 nav {
-  // border: solid 2px yellow;
   width: 40vw;
   ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.5vw;
+    a {
+      color: #ffffff;
+      text-transform: uppercase;
+    }
   }
 }
 
-.sessaoSobre {
+.sectionSobre {
   height: 60vh;
-  //   border: solid 2px red;
   background-color: #ffd9ec;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  p {
-    border: solid 2px;
-    width: 40vw;
-    font-size: 1.5vw;
-  }
-  img {
-    width: 25vw;
-  }
-}
-.sectionConscientizacao {
-  height: 60vh;
-  background-color: $cor-primaria;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   p {
     width: 38vw;
     font-size: 1.5vw;
-    color: $cor-do-texto;
+  }
+  img {
+    width: 25vw;
+  }
+}
+
+.sectionConscientizacao {
+  height: 60vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  p {
+    width: 38vw;
+    font-size: 1.5vw;
+    color: #ffffff;
   }
   img {
     width: 40vw;
   }
 }
 
-.sectionDicas {
+.sectionTips {
   height: 60vh;
-  background-color: $cor-secundaria;
+  background-color: #ffd9ec;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -86,7 +89,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: $cor-primaria;
+  background-color: #ff69b4;
   padding: 0 50px;
 
   nav {
@@ -111,18 +114,18 @@ footer {
   .navImg {
     width: 5vw;
   }
-}
 
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-p {
-  color: $cor-do-texto;
-  text-align: justify;
-}
-.footerImg {
-  max-width: 100px;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  p {
+    color: #ffffff;
+    text-align: justify;
+  }
+  .footerImg {
+    max-width: 100px;
+  }
 }
